@@ -1,0 +1,142 @@
+.kontaktformular-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-right: 160px;
+    padding-left: 160px;
+    align-items: center;
+    flex: 1;
+    font-family: "Raleway", sans-serif;
+    margin-top: 80px;
+    padding-bottom: 316px;
+}
+
+.contactform-question {
+    text-align: center;
+    font-size: 28px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.button {
+    width: 140px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: green;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #006400;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: rgb(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgb(231, 226, 226);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Raleway';
+}
+
+.input-name-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Raleway';
+}
+
+input[type=email] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: rgb(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgb(231, 226, 226);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Raleway';
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+.input-mail-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-family: 'Raleway';
+}
+
+textarea {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: rgb(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgb(231, 226, 226);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Raleway';
+}
+
+.input-textarea-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-family: 'Raleway';
+}
+
+.input-checkbox-section {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.send-mail-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.send-mail-section {
+    height: 100vh;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+    font-family: 'Raleway';
+    flex: 1;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
