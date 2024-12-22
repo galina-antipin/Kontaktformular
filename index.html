@@ -7,7 +7,28 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
-<body>
-    
+<body class="kontaktformular-body" onload="includeHTML()">
+    <div w3-include-html="templates/header.html"></div>
+    <form onsubmit="sendMail(event)">
+        <h1 class="first-headline contactform-question"> Haben Sie Fragen? </h1>
+        <div class="input-name-section">
+            <label>Name</label>
+            <input type="text" name="Name" required="">
+        </div>
+        <div class="input-mail-section">
+            <label>E-Mail</label>
+            <input type="email" name="E-Mail" required="">
+        </div>
+        <div class="input-textarea-section">
+            <label>Ihre Nachricht</label>
+            <textarea rows="3" name="Nachricht" required=""></textarea>
+        </div>
+        <div class="input-checkbox-section">
+            <input type="checkbox" name="Datenverarbeitung bestätigt" value="Ja" required="">
+            <label> Ich bin mit der Verarbeitung meiner Daten einverstanden.</label>
+        </div>
+        <input class="button" type="submit" value="Absenden">
+    </form>
+    <div w3-include-html="templates/footer.html"></div>
 </body>
 </html>
